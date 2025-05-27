@@ -1,0 +1,21 @@
+public class Kendaraan {
+    String platNomor;
+    String tipe;
+    String merk;
+
+    public Kendaraan() {
+    }
+
+    public Kendaraan(String plat, String tipe, String merk) {
+        this.platNomor = plat;
+        this.tipe = tipe;
+        this.merk = merk;
+    }
+    public void tampilkanInformasi(){
+        System.out.println("-- Antrian Kendaraan --");
+        System.out.println("Antrian Kendaraan:");
+        System.out.println("Plat Nomor  : " + platNomor);
+        System.out.println("Tipe        : " + tipe);
+        System.out.println("Merk       : " + merk);
+    }
+}
